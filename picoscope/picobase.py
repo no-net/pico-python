@@ -60,7 +60,7 @@ class PSBase(object):
     ###You must reimplement this in device specific classes
 
     # Do not include .dll or .so, these will be appended automatically
-    LIBNAME = "ps6000"
+    LIBNAME = "ps4000"
 
     MAX_VALUE = 32764
     MIN_VALUE = -32764
